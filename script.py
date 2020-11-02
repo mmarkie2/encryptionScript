@@ -36,7 +36,7 @@ def run(args):
 		
 	iv=getRandom()
 		
-	keyFile="ENCRYPTION_DATA_"+args.input
+	keyFile="ENCRYPTION_DATA_"+mode+"_"+ args.input
 	
 		
 		
